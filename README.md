@@ -16,7 +16,7 @@
 ### Program 3: Sistem Manajemen Inventaris Toko
 .
 ### Program 4: Minesweeper++
-.
+*Game Minesweeper* berbasis CLI, dengan hanya menggunakan beberapa library dan satu file C++, sudah mendapat fitur kustomisasi papan, bendera penanda, dan *flood fill* yang ikonik (*We don't talk about Chording*).
 ### Program 5: Game Tebak Negara
 .
 ---
