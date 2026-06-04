@@ -19,6 +19,6 @@ Program Sistem Manajemen Inventaris Toko adalah aplikasi sederhana berbasis C++ 
 ### Program 4: Minesweeper++
 *Game Minesweeper* berbasis CLI, dengan hanya menggunakan beberapa library dan satu file C++, sudah mendapat fitur kustomisasi papan, bendera penanda, dan *flood fill* yang ikonik (*We don't talk about Chording*).
 ### Program 5: Game Tebak Negara
-.
+Program ini adalah permainan tebak nama negara berbasis teks (CLI) yang dibangun menggunakan bahasa C++. Dengan tipe data bentukan (struct), array dinamis (vector), percabangan, dan perulangan. Cara kerjanya dimulai dengan menyimpan kumpulan soal—berupa teks nama negara dengan huruf rumpang—beserta kunci jawabannya ke dalam memori. Saat permainan berlangsung, program akan memilih satu soal secara acak menggunakan sistem random berbasis waktu, lalu meminta pemain untuk mengetikkan jawaban. Sistem kemudian mengevaluasi kecocokan jawaban pemain dengan kunci yang ada, memperbarui skor secara real-time, dan memanfaatkan perulangan do-while untuk memberikan pilihan kepada pemain apakah mereka ingin memutar soal baru lagi atau mengakhiri permainan.
 ---
 ## Klik Link Berikut Untuk Melihat Video Presentasi Kami: (Coming Soon)
