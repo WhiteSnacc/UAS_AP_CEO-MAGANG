@@ -20,5 +20,5 @@ Program ini adalah permainan tebak nama negara berbasis teks (CLI) yang dibangun
 .
 ## Hasil Screenshot Output 5 Program:
 https://drive.google.com/drive/
-## Klik Link Berikut Untuk Melihat Video Presentasi Kami: 
-(Coming Soon)
+## Klik Link Berikut Untuk Melihat Video Presentasi Kami:
+https://youtu.be/3H8JZXZUFhI?si=HDg9cVi20avAVOWi
