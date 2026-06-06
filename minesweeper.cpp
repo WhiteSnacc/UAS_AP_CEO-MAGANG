@@ -274,6 +274,47 @@ public:
         return false;
     }
 
+    void offerAutoFlag() {
+
+    int closedCount = 0;
+    int flaggedCount = 0;
+
+    for (int r = 0; r < size; r++) {
+        for (int c = 0; c < size; c++) {
+
+            if (flagged[r][c])
+                flaggedCount++;
+
+            if (!opened[r][c] && !flagged[r][c])
+                closedCount++;
+        }
+    }
+
+    int bombsLeft = bombs - flaggedCount;
+
+    if (closedCount == bombsLeft && bombsLeft > 0) {
+
+        char ans;
+
+        cout << "\nSemua kotak tertutup yang tersisa "
+             << "dipastikan bom.\n";
+
+        cout << "Auto Flag semua? (Y/N): ";
+
+        cin >> ans;
+
+        if (ans == 'Y' || ans == 'y') {
+
+            for (int r = 0; r < size; r++) {
+                for (int c = 0; c < size; c++) {
+
+                    if (!opened[r][c] && !flagged[r][c])
+                        flagged[r][c] = true;
+                }
+            }
+        }
+    }}
+
     void play() {
 
         initialize();
